@@ -1,0 +1,21 @@
+.App {
+height: calc(100vh-90px);
+background: #131313;
+display: flex;
+}
+.overWrap{
+  height: 100vh;
+  min-height: 100%;
+  background: gray;
+}
+.musicControls{
+  background:#282828;
+  height: 90px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: aliceblue;
+}
+
+
