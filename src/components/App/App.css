@@ -1,4 +1,4 @@
-.App {
+/* .App {
 height: calc(100vh-90px);
 background: #131313;
 display: flex;
@@ -16,6 +16,32 @@ display: flex;
   justify-content: center;
   align-items:center;
   color: aliceblue;
+} */
+
+
+.App {
+  height: calc(100vh - 90px);
+  background:  #131313;
+  display: flex;
 }
 
 
+
+.outerWrap {
+  background: grey;
+  height: 100vh;
+  min-height: 100%;
+}
+
+.musicControls {
+  background: #282828;
+  text-align: center;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 2;
+  position: relative;
+  border-top: 1px solid #040404;
+}

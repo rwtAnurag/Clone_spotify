@@ -5,7 +5,10 @@ import './Main.css';
 function Main() {
   return (
     <div className="Main">
-      <div className="uperNav">This Is uper nav</div>
+      <div className="uperNav">
+      <input className="searchBar" placeholder="       Search for Artist, Songs, or Podcasts" type="text"></input>
+      <a >LOGIN </a>
+      </div>
       <div className="mainContest">
          <h1>uniquely yours</h1> 
          <div class="cardWrap">

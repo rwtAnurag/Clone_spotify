@@ -1,8 +1,27 @@
+.searchBar{
+    border-radius: 20px;
+    height: 40px;
+    width: 400px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    margin-left: 80px;
+    
+}
 
-    .uperNav{
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 57%;
+    border-radius: 99px;
+    font-weight: 800;
+    background-color: #1db954;
+  }
+    .uperNav{ 
         background: #090909;
         height: 56px;
-        width: 100%;
+        width: clac(100%-220px);
         display: flex;
         align-items: center;
         color: white;
